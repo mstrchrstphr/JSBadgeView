@@ -36,12 +36,17 @@ typedef enum {
 
 @property (nonatomic, assign) JSBadgeViewAlignment badgeAlignment;
 
+@property (nonatomic) CGFloat badgeStrokeWidth;
+@property (nonatomic) CGFloat badgeHeight;
+@property (nonatomic) CGFloat badgeTextSideMargin;
+@property (nonatomic) CGFloat badgeCornerRadius;
+
 @property (nonatomic, strong) UIColor *badgeTextColor;
 @property (nonatomic, assign) CGSize badgeTextShadowOffset;
 @property (nonatomic, strong) UIColor *badgeTextShadowColor;
-
 @property (nonatomic, strong) UIFont *badgeTextFont;
 
+@property (nonatomic, strong) UIColor *badgeStrokeColor;
 @property (nonatomic, strong) UIColor *badgeBackgroundColor;
 
 /**

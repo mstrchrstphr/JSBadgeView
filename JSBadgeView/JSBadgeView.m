@@ -98,6 +98,11 @@
     
     self.badgeAlignment = kDefaultBadgeAlignment;
     
+    self.badgeStrokeWidth = kBadgeStrokeWidth;
+    self.badgeHeight = kBadgeHeight;
+    self.badgeTextSideMargin = kBadgeTextSideMargin;
+    self.badgeCornerRadius = kBadgeCornerRadius;
+    
     self.badgeBackgroundColor = kDefaultBadgeBackgroundColor;
     self.badgeOverlayColor = kDefaultOverlayColor;
     self.badgeTextColor = kDefaultBadgeTextColor;
